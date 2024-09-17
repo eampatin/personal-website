@@ -1,0 +1,54 @@
+/* .img-profile {
+    text-shadow: 5px 5px 10px rgba(192, 7, 7, 0.5);
+ 
+} */
+
+.img-profile:hover {
+  animation: animate 1.5s ease-in-out infinite;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+/* .img-profile{
+  animation: animate 1.5s ease-in-out infinite;
+  font-size: 1.8rem;
+  font-weight: 500;
+} */
+
+.img-profile1 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  /* background-color: #b74b4b; */
+  background-color: #b74b4b;;
+  /* background-image: url("../img/bgpic.jpg"); */
+  /* text-shadow: 0 0 25px #b74b4b; */
+}
+
+.img-profile1 {
+  width: 200px; /* Set container width */
+  height: 200px; /* Set container height */
+  border-radius: 50%; /* Makes the container circular */
+  overflow: hidden; /* Ensures the image is clipped inside the circle */
+  box-shadow: 0 0 25px #b74b4b;
+}
+
+.img-profile1 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image fits the circle */
+  box-shadow: 0 0 25px #b74b4b;
+}
+
+@keyframes animate {
+  0% {
+    scale: 1;
+  }
+
+  50% {
+    scale: 1.05;
+  }
+
+  100% {
+    scale: 1;
+  }
+}
